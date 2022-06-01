@@ -702,24 +702,20 @@ ul {
   fill: #afb1b8;
 }
 
-
-
-
-
-
-
 /* Постоянные клиенты */
 
-.our-clients {
+.regular-clients__title {
   margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
   line-height: 42px;
   text-align: center;
   color: #212121;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.clients {
+.regular-clients__list {
   margin: 0;
   padding-inline-start: 0;
   display: flex;
@@ -729,15 +725,7 @@ ul {
   cursor: pointer;
 }
 
-.clients-logo {
-  width: 106px;
-  height: 60px;
-  fill: #afb1b8;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.clients-item {
+.regular-clients__item {
   display: flex;
   width: 170px;
   height: 92px;
@@ -749,15 +737,27 @@ ul {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.clients-item:hover .clients-logo,
-.clients-item:focus .clients-logo {
+.regular-clients__item:hover,
+.regular-clients__item:focus {
+  border-color: #2196f3;
+}
+
+.regular-clients__item:hover .regular-clients__logo,
+.regular-clients__item:focus .regular-clients__logo {
   fill: #2196f3;
 }
 
-.clients-item:hover,
-.clients-item:focus {
-  border-color: #2196f3;
+.regular-clients__logo {
+  width: 106px;
+  height: 60px;
+  fill: #afb1b8;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+
+
+
 
 /* Footer */
 
