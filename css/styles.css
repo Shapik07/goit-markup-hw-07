@@ -42,6 +42,10 @@ p {
   margin: 0;
 }
 
+a {
+   text-decoration: none;
+}
+
 .visually-hidden {
   position: absolute;
   white-space: nowrap;
@@ -80,12 +84,6 @@ ul {
 }
 
 /* Шапка сайта */
-
-.page-header a,
-.footer-nav a,
-.footer-logo {
-  text-decoration: none;
-}
 
 .page-header {
   border: 1px solid var(--border-header-color);
