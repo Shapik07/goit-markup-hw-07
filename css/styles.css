@@ -89,7 +89,7 @@ ul {
   border: 1px solid var(--border-header-color);
 }
 
-
+/* logo сайта */
 
 .logo {
   color: var(--logo-color);
@@ -114,6 +114,8 @@ ul {
 .footer-logo-color {
   color: var(--white-color-text);
 }
+
+/* Навигация сайта */
 
 .main-nav {
   display: flex;
@@ -177,12 +179,35 @@ ul {
   color: var(--focus-color-text);
 }
 
-.site-nav a {
+.site-nav__link {
   font-weight: 500;
   color: var(--header-color-text);
   text-decoration: none;
   padding-top: 32px;
   padding-bottom: 32px;
+}
+
+/* Контакты */
+
+.contacts-nav-header__icon-contacts-phone {
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
+  fill: currentColor;
+  align-items: center;
+}
+
+.contacts-nav-header__icon-contacts-mail {
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+  fill: currentColor;
+  align-items: center;
+}
+
+.contacts-nav-header__icon-contacts-mail:hover,
+.contacts-nav-header__icon-contacts-phone:hover {
+  color: var(--focus-color-text);
 }
 
 .contacts-nav-header__mail-btn,
@@ -195,6 +220,8 @@ ul {
   justify-content: center;
   align-items: center;
 }
+
+/* Backdrop */
 
 .backdrop {
   position: fixed;
@@ -809,27 +836,6 @@ footer {
 .footer {
   padding-top: 60px;
   padding-bottom: 60px;
-}
-
-.contacts-nav-header__icon-contacts-phone {
-  width: 16px;
-  height: 16px;
-  margin-right: 10px;
-  fill: currentColor;
-  align-items: center;
-}
-
-.contacts-nav-header__icon-contacts-mail {
-  width: 16px;
-  height: 12px;
-  margin-right: 10px;
-  fill: currentColor;
-  align-items: center;
-}
-
-.contacts-nav-header__icon-contacts-mail:hover,
-.contacts-nav-header__icon-contacts-phone:hover {
-  color: var(--focus-color-text);
 }
 
 .social-footer {
