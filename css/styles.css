@@ -86,6 +86,12 @@ ul {
   list-style-type: none;
 }
 
+.section,
+.our-team-section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 /* Шапка сайта */
 
 .page-header {
@@ -492,8 +498,61 @@ ul {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
+/* Секция преимуществ */
 
+.advantages {
+  display: inline-block;
+  display: flex;
+  margin-top: 95px;
+  margin-bottom: 95px;
+  margin: 0;
+  padding-inline-start: 0;
+}
 
+.advantages__info {
+  display: inline-block;
+  margin-right: 30px;
+}
+
+.advantages__info:last-child {
+  margin: 0px;
+}
+
+.advantages__icon {
+  display: flex;
+  width: 270px;
+  height: 120px;
+  background-color: #f5f4fa;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.advantages__icon-file {
+  width: 70px;
+  height: 70px;
+}
+
+.advantages__title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--header-color-text);
+  margin: 0;
+  padding-bottom: 10px;
+}
+
+.advantages__text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--contacts-text-color);
+  padding-top: 10px;
+  margin: 0;
+  color: #757575;
+}
 
 .work,
 .team {
@@ -528,83 +587,11 @@ ul {
     0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
-
-/* Секция преимуществ */
-
-.section,
-.our-team-section {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
 .our-work {
   padding-top: 0;
 }
 
-.Advantages-title {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  text-transform: uppercase;
-  color: var(--header-color-text);
-  margin: 0;
-}
 
-.Advantages-text {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-  color: var(--contacts-text-color);
-  padding-top: 10px;
-  margin: 0;
-}
-
-.advantages-info {
-  display: inline-block;
-  margin-right: 30px;
-}
-
-.advantages-info:last-child {
-  margin: 0px;
-}
-
-.advantages {
-  display: inline-block;
-  display: flex;
-  margin-top: 95px;
-  margin-bottom: 95px;
-  margin: 0;
-  padding-inline-start: 0;
-}
-
-.advantages-title {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  padding-bottom: 10px;
-}
-
-.advantages-text {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
-  color: #757575;
-}
-
-.advantages-icon {
-  display: flex;
-  width: 270px;
-  height: 120px;
-  background-color: #f5f4fa;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 30px;
-}
-
-.advantages-icon-file {
-  width: 70px;
-  height: 70px;
-}
 
 /* Чем мы занимаемся */
 
