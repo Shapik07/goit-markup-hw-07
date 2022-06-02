@@ -934,21 +934,10 @@ footer {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Портфолио */
+
+
+/* Категории (кнопки) */
 
 .Categories {
   display: inline-block;
@@ -958,22 +947,11 @@ footer {
   margin-bottom: 50px;
 }
 
-.categories-btn:not(:last-child) {
+.categories__btn:not(:last-child) {
   margin-right: 8px;
 }
 
-.categories-link {
-  margin: 0;
-  flex-wrap: wrap;
-  display: inline-block;
-  display: flex;
-  justify-content: center;
-  padding-inline-start: 0;
-  margin-right: -30px;
-  margin-bottom: -30px;
-}
-
-.list-button {
+.categories__list-button {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -990,14 +968,8 @@ footer {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.list-button:hover {
-  color: var(--white-color-text);
-  background-color: var(--focus-color-text);
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
-}
-
-.list-button:focus {
+.categories__list-button:hover,
+.categories__list-button:focus {
   color: var(--white-color-text);
   background-color: var(--focus-color-text);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
@@ -1005,6 +977,29 @@ footer {
 }
 
 /* категории */
+
+
+
+
+
+
+
+
+
+
+.categories-link {
+  margin: 0;
+  flex-wrap: wrap;
+  display: inline-block;
+  display: flex;
+  justify-content: center;
+  padding-inline-start: 0;
+  margin-right: -30px;
+  margin-bottom: -30px;
+}
+
+
+
 
 .list-title {
   font-weight: 700;
